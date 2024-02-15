@@ -46,8 +46,8 @@ action: update
 need to know, what is source for `token: d7e7cc81ffddba8e19ef2b668074a64e`, and is there any API for shop' products
 (as following information `id_product, id_customization, group[1] and etc` is required)
 
-4. Test data is hardcoded [products](https://github.com/antiylia/prestashop-test/blob/5d4c30faa5566ae4b0d30ea67775e48407233b10/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L24)
-To clarify, are there any product' API or other ways to get actual products list dynamically
+4. Test data is hardcoded [products](https://github.com/antiylia/prestashop-test/blob/5d4c30faa5566ae4b0d30ea67775e48407233b10/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L24).
+Need to clarify, are there any product' API or other ways to get actual products list dynamically
 
 
 
