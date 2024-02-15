@@ -1,8 +1,9 @@
-# Selenide + JUnit5 + javafaker
+# Selenide + JUnit5 + Allure + javafaker
 
 ## To run tests:
 
 * run `mvn clean test`
+* run `mvn allure:serve` - to generate and open the report
 
 ## What was done:
 
@@ -43,8 +44,8 @@ qty: 1
 add: 1
 action: update
 ```
-need to know, what is source for `token: d7e7cc81ffddba8e19ef2b668074a64e`, and is there any API for shop' products
-(as following information `id_product, id_customization, group[1] and etc` is required)
+need to know, what is source for `token: d7e7cc81ffddba8e19ef2b668074a64e`, and is there any API for shop' products 
+to get following information `id_product, id_customization, group[1]` and etc
 
 4. Test data is hardcoded [products](https://github.com/antiylia/prestashop-test/blob/antiylia/prestashop-tests/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L17).
 Need to clarify, are there any product' API or other ways to get actual products list dynamically
