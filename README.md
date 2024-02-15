@@ -11,7 +11,7 @@
     - User able to add to Cart more than 1 product [userCanAddMoreThatOneProductToCart](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L23)
     - User able to checkout order from the Cart [userCanProceedToCheckoutOrder](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L42)
    
-2. `Selenide + JUnit5 + javafaker` used tech stack
+2. `Selenide + JUnit5 + Allure + javafaker` used tech stack
 
 3. Currently, within `userCanProceedToCheckoutOrder` tests products added to Cart via UI (as precondition), 
 it weak place and should be improved using API. It can be done using:
@@ -50,9 +50,10 @@ to get following information `id_product, id_customization, group[1]` and etc
 4. Test data is hardcoded [products](https://github.com/antiylia/prestashop-test/blob/antiylia/prestashop-tests/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L17).
 Need to clarify, are there any product' API or other ways to get actual products list dynamically
 
-5. [placeOrderBtn.click();](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/main/java/org/example/pages/checkout/steps/PaymentStep.java#L16) disabled for now, 
-need to check how created Order can be clean up after test. 
-Test [validate](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L53), that "PLACE ORDER" button is enabled after checkout steps done
+5. [placeOrderBtn.click();](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/main/java/org/example/pages/checkout/steps/PaymentStep.java#L16) disabled for now and test [validates](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L53), 
+that "PLACE ORDER" button is enabled after checkout steps done. 
+Need to check how generated Order can be clean up after test, to proceed with the next steps: to place Order and check "YOUR ORDER IS CONFIRMED" component appeared
+
 
 
 
