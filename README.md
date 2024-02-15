@@ -7,8 +7,8 @@
 ## What was done:
 
 1. implemented e2e tests, to cover requirements:
-    - User able to add to Cart more than 1 product [userCanAddMoreThatOneProductToCart](https://github.com/antiylia/prestashop-test/blob/5d4c30faa5566ae4b0d30ea67775e48407233b10/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L47)
-    - User able to checkout order from the Cart [userCanProceedToCheckoutOrder](https://github.com/antiylia/prestashop-test/blob/5d4c30faa5566ae4b0d30ea67775e48407233b10/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L66)
+    - User able to add to Cart more than 1 product [userCanAddMoreThatOneProductToCart](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L23)
+    - User able to checkout order from the Cart [userCanProceedToCheckoutOrder](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L42)
    
 2. `Selenide + JUnit5 + javafaker` used tech stack
 
@@ -46,8 +46,12 @@ action: update
 need to know, what is source for `token: d7e7cc81ffddba8e19ef2b668074a64e`, and is there any API for shop' products
 (as following information `id_product, id_customization, group[1] and etc` is required)
 
-4. Test data is hardcoded [products](https://github.com/antiylia/prestashop-test/blob/5d4c30faa5566ae4b0d30ea67775e48407233b10/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L24).
+4. Test data is hardcoded [products](https://github.com/antiylia/prestashop-test/blob/antiylia/prestashop-tests/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L17).
 Need to clarify, are there any product' API or other ways to get actual products list dynamically
+
+5. [placeOrderBtn.click();](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/main/java/org/example/pages/checkout/steps/PaymentStep.java#L16) disabled for now, 
+need to check how created Order can be clean up after test. 
+Test [validate](https://github.com/antiylia/prestashop-test/blob/7a35292274bd2a1b7828dedc13d415eab3ff1c6f/src/test/java/org/example/AddingAndCheckoutMoreThatOneProductTest.java#L53), that "PLACE ORDER" button is enabled after checkout steps done
 
 
 
