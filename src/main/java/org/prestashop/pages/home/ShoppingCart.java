@@ -1,7 +1,7 @@
-package org.example.pages.home;
+package org.prestashop.pages.home;
 
 import com.codeborne.selenide.SelenideElement;
-import org.example.pages.checkout.CheckoutPage;
+import org.prestashop.pages.checkout.CheckoutPage;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;

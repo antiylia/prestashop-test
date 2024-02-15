@@ -1,11 +1,11 @@
-package org.example.pages.checkout;
+package org.prestashop.pages.checkout;
 
 import com.codeborne.selenide.SelenideElement;
-import org.example.entities.Customer;
-import org.example.pages.checkout.steps.AddressesStep;
-import org.example.pages.checkout.steps.PaymentStep;
-import org.example.pages.checkout.steps.PersonalInformationStep;
-import org.example.pages.checkout.steps.ShippingMethodStep;
+import org.prestashop.entities.Customer;
+import org.prestashop.pages.checkout.steps.AddressesStep;
+import org.prestashop.pages.checkout.steps.PaymentStep;
+import org.prestashop.pages.checkout.steps.PersonalInformationStep;
+import org.prestashop.pages.checkout.steps.ShippingMethodStep;
 
 import static com.codeborne.selenide.Selenide.$;
 

@@ -26,7 +26,7 @@ curl -X POST 'https://famous-foot.demo.prestashop.com/en/cart' \
 
 ```
 
-The tricky thinks here
+The tricky things here:
 
 - exact shop `famous-foot.demo.prestashop.com` domain is dynamic, and changing after some time, need to investigate how it's sourced
 

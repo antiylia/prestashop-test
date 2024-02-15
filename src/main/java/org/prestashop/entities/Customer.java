@@ -1,4 +1,4 @@
-package org.example.entities;
+package org.prestashop.entities;
 
 import com.github.javafaker.Faker;
 

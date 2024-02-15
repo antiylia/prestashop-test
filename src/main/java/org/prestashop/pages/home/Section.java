@@ -1,7 +1,7 @@
-package org.example.pages.home;
+package org.prestashop.pages.home;
 
 import com.codeborne.selenide.SelenideElement;
-import org.example.entities.Product;
+import org.prestashop.entities.Product;
 
 public class Section {
     public final SelenideElement root;

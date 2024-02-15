@@ -1,4 +1,4 @@
-package org.example.pages.home;
+package org.prestashop.pages.home;
 
 import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Condition.visible;

@@ -1,4 +1,4 @@
-package org.example.pages;
+package org.prestashop.pages;
 
 import java.time.Duration;
 import static com.codeborne.selenide.Condition.disappear;

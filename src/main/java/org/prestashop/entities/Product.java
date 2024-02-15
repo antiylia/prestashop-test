@@ -1,4 +1,4 @@
-package org.example.entities;
+package org.prestashop.entities;
 
 public class Product {
     private final int id;

@@ -1,13 +1,13 @@
-package org.example;
+package org.prestashop;
 
-import org.example.entities.Customer;
-import org.example.entities.Product;
-import org.example.pages.checkout.CheckoutPage;
-import org.example.pages.home.HomePage;
-import org.example.pages.home.ProductMiniature;
-import org.example.pages.home.Section;
-import org.example.pages.home.ShoppingCart;
-import org.example.pages.home.modals.ProductAddedToCartModal;
+import org.prestashop.entities.Customer;
+import org.prestashop.entities.Product;
+import org.prestashop.pages.checkout.CheckoutPage;
+import org.prestashop.pages.home.HomePage;
+import org.prestashop.pages.home.ProductMiniature;
+import org.prestashop.pages.home.Section;
+import org.prestashop.pages.home.ShoppingCart;
+import org.prestashop.pages.home.modals.ProductAddedToCartModal;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.interactable;

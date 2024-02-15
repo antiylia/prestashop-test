@@ -1,7 +1,7 @@
-package org.example.pages.checkout.steps;
+package org.prestashop.pages.checkout.steps;
 
 import com.codeborne.selenide.SelenideElement;
-import org.example.entities.Customer;
+import org.prestashop.entities.Customer;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 

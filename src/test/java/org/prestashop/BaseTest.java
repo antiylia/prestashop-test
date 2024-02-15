@@ -1,7 +1,7 @@
-package org.example;
+package org.prestashop;
 
 import com.codeborne.selenide.Configuration;
-import org.example.pages.BrowserUtils;
+import org.prestashop.pages.BrowserUtils;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

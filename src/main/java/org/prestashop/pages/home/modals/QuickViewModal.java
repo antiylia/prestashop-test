@@ -1,4 +1,4 @@
-package org.example.pages.home.modals;
+package org.prestashop.pages.home.modals;
 
 import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Condition.*;

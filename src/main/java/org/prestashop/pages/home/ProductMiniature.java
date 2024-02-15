@@ -1,7 +1,7 @@
-package org.example.pages.home;
+package org.prestashop.pages.home;
 
 import com.codeborne.selenide.SelenideElement;
-import org.example.pages.home.modals.QuickViewModal;
+import org.prestashop.pages.home.modals.QuickViewModal;
 
 import static com.codeborne.selenide.Condition.interactable;
 import static com.codeborne.selenide.Condition.visible;
