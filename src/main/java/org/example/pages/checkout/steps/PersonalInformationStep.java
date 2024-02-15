@@ -3,6 +3,7 @@ package org.example.pages.checkout.steps;
 import com.codeborne.selenide.SelenideElement;
 import org.example.entities.Customer;
 import static com.codeborne.selenide.Selenide.$;
+
 public class PersonalInformationStep {
   private final SelenideElement root = $("#checkout-personal-information-step");
   private final SelenideElement firstnameInpt = root.$("input[name='firstname']");

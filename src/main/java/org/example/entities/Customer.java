@@ -40,7 +40,7 @@ public class Customer {
         return address;
     }
 
-    public String getZip() { // TODO
+    public String getZip() {
         return zip;
     }
 
